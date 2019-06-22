@@ -19,9 +19,9 @@ P_tran = (m*l*s/q)/(s^3 + (b*(I + m*l^2))*s^2/q - ((M + m)*m*g*l)*s/q - b*m*g*l/
 
 sys_tf = [P_angle ; P_tran];
 
-Kp = 992.629622331567;
-Ki = 7243.2603978699;
-Kd = 33.4044758831044;
+Kp = 35;
+Ki = 10;
+Kd = 5;
 C = pid(Kp,Ki,Kd);
 T = feedback(P_angle,C);
 
