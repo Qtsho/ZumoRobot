@@ -1,4 +1,4 @@
-
+% DATA COPY FROM EXEL SHEET
 % subplot(2,1,1)
 magnitude= abs(fft(data));
 N = length(magnitude);

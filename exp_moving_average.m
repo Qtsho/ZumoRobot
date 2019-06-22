@@ -1,4 +1,4 @@
-alpha = 0.6s;
+alpha = 0.6;
 z = tf('z')
 %syms z
 H = alpha / (1-(1-alpha)*z^-1);
